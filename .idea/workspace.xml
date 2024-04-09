@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a19f584e-f530-4ad2-9b07-417787d4e116" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BankAccount/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccount/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccount/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccount/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccount/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccount/src/Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/src/AnotherLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/src/Conditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/src/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseProject/src/Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_project/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BankAccount" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2cxZNRFHmT4cY8dEVxWsfQdKBtv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gustavocamargo/IdeaProjects"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-92e50af3" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a19f584e-f530-4ad2-9b07-417787d4e116" name="Changes" comment="" />
+      <created>1709055151017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709055151017</updated>
+    </task>
+    <servers />
+  </component>
+</project>
