@@ -14,5 +14,26 @@ public class Main {
         Cat cat = new Cat();
         cat.makeSound();
         cat.scratchFurniture();
+
+        BankAccount account = new BankAccount();
+        account.deposit(100);
+        account.getBalance();
+
+        CurrentAccount currentAccount = new CurrentAccount();
+        currentAccount.deposit(200);
+        currentAccount.monthlyFeeCharge();
+        currentAccount.getBalance();
+        currentAccount.withdraw(150);
+        currentAccount.getBalance();
+
+        PrimeVerifier verifier = new PrimeVerifier();
+        verifier.verifyIfPrime(17);
+
+        PrimeGenerator generator = new PrimeGenerator();
+        int nextPrimeNumber = generator.generateNextPrime(17);
+        System.out.println("The next prime number is: " + nextPrimeNumber);
+
+        PrimeNumbers primeNumbers = new PrimeNumbers();
+        primeNumbers.listPrimes(30);
     }
 }
