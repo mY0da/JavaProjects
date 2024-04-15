@@ -1,4 +1,6 @@
+import br.com.alura.screenmatch.calculations.RecomendationFilter;
 import br.com.alura.screenmatch.calculations.TimeCalculator;
+import br.com.alura.screenmatch.models.Episode;
 import br.com.alura.screenmatch.models.Movie;
 import br.com.alura.screenmatch.models.Serie;
 
@@ -13,7 +15,7 @@ public class Main {
         myMovie.technicalSheet();
         myMovie.rating(8);
         myMovie.rating(6);
-        myMovie.rating(10);
+        myMovie.rating(9);
 
         System.out.println(myMovie.getTotalRating());
         System.out.println(myMovie.averageRating());
@@ -31,5 +33,14 @@ public class Main {
         calculator.include(myMovie);
         calculator.include(lost);
         System.out.println(calculator.getTotalTime());
+
+        RecomendationFilter filter = new RecomendationFilter();
+        filter.filter(myMovie);
+
+        Episode episode = new Episode();
+        episode.setNumber(1);
+        episode.setSerie(lost);
+        episode.setTotalViews(300);
+        filter.filter(episode);
     }
 }
