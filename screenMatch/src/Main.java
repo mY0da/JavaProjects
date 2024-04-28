@@ -4,6 +4,8 @@ import br.com.alura.screenmatch.models.Episode;
 import br.com.alura.screenmatch.models.Movie;
 import br.com.alura.screenmatch.models.Serie;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
@@ -29,6 +31,11 @@ public class Main {
         lost.setMinPerEpisode(50);
         System.out.println("Time to binge-watch Lost: " + lost.getDurationInMin());
 
+        Movie anotherMovie = new Movie();
+        anotherMovie.setName("Avatar");
+        anotherMovie.setYearOfRelease(2023);
+        anotherMovie.setDurationInMin(200);
+
         TimeCalculator calculator = new TimeCalculator();
         calculator.include(myMovie);
         calculator.include(lost);
@@ -42,5 +49,19 @@ public class Main {
         episode.setSerie(lost);
         episode.setTotalViews(300);
         filter.filter(episode);
+
+        Movie gusMovie = new Movie();
+        gusMovie.setName("Dogville");
+        gusMovie.setDurationInMin(200);
+        gusMovie.setYearOfRelease(2003);
+        gusMovie.rating(10);
+
+        ArrayList<Movie> moviesList = new ArrayList<>();
+        moviesList.add(gusMovie);
+        moviesList.add(myMovie);
+        moviesList.add(anotherMovie);
+        System.out.println("Size of the list: " + moviesList.size());
+        System.out.println("First movie: " + moviesList.get(0).getName());
+        System.out.println(moviesList);
     }
 }
