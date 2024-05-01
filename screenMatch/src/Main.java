@@ -8,8 +8,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Movie myMovie = new Movie("The Godfather");
-        myMovie.setYearOfRelease(1970);
+        Movie myMovie = new Movie("The Godfather", 1970);
         myMovie.setDurationInMin(180);
         myMovie.setIncludeInBundle(true);
 
@@ -21,17 +20,14 @@ public class Main {
         System.out.println(myMovie.getTotalRating());
         System.out.println(myMovie.averageRating());
 
-        Serie lost = new Serie();
-        lost.setName("Lost");
-        lost.setYearOfRelease(2000);
+        Serie lost = new Serie("Lost", 2000);
         lost.technicalSheet();
         lost.setSeasons(10);
         lost.setEpisodesPerSeason(10);
         lost.setMinPerEpisode(50);
         System.out.println("Time to binge-watch Lost: " + lost.getDurationInMin());
 
-        Movie anotherMovie = new Movie("Avatar");
-        anotherMovie.setYearOfRelease(2023);
+        Movie anotherMovie = new Movie("Avatar", 2023);
         anotherMovie.setDurationInMin(200);
 
         TimeCalculator calculator = new TimeCalculator();
@@ -48,9 +44,8 @@ public class Main {
         episode.setTotalViews(300);
         filter.filter(episode);
 
-        Movie gusMovie = new Movie("Dogville");
+        Movie gusMovie = new Movie("Dogville", 2003);
         gusMovie.setDurationInMin(200);
-        gusMovie.setYearOfRelease(2003);
         gusMovie.rating(10);
 
         ArrayList<Movie> moviesList = new ArrayList<>();

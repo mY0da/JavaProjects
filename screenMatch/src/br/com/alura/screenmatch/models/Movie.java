@@ -5,8 +5,8 @@ import br.com.alura.screenmatch.calculations.Classification;
 public class Movie extends Title implements Classification {
     private String director;
 
-    public Movie(String name) {
-        this.setName(name);
+    public Movie(String name, int yearOfRelease) {
+        super(name, yearOfRelease);
     }
 
     public String getDirector() {
