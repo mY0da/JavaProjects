@@ -2,6 +2,11 @@ public class Person {
     private String name;
     private int age;
 
+    Person(String name, int age) {
+        this.setName(name);
+        this.setAge(age);
+    }
+
     public String getName() {
         return name;
     }
