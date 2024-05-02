@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         ArrayList<Product> productsList = new ArrayList<>();
@@ -19,5 +17,7 @@ public class Main {
         for (Product product : productsList) {
             System.out.println(product);
         }
+        //or productsList.forEach(product -> System.out.println(product));
+        //or productsList.forEach(System.out::println);
     }
 }
