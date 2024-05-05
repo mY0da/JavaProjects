@@ -34,5 +34,35 @@ public class Main {
 
         double averagePrice = priceSum / productsList.size();
         System.out.println("Products' average price: " + averagePrice);
+
+        Circle circle = new Circle();
+        circle.radius = 5;
+
+        Square square = new Square();
+        square.side = 4;
+
+        ArrayList<Shape> shapesList = new ArrayList<>();
+        Collections.addAll(shapesList, circle, square);
+
+        for (Shape shape : shapesList) {
+            System.out.println("Area: " + shape.calculateArea());
+        }
+
+        BankAccount account1 = new BankAccount(101, 1500.0);
+        BankAccount account2 = new BankAccount(102, 2500.0);
+        BankAccount account3 = new BankAccount(103, 1900.0);
+
+        ArrayList<BankAccount> accountsList = new ArrayList<>();
+        Collections.addAll(accountsList, account1, account2, account3);
+
+        BankAccount accountBiggestBalance = accountsList.get(0);
+        for (BankAccount account : accountsList) {
+            if (account.getBalance() > accountBiggestBalance.getBalance()) {
+                accountBiggestBalance = account;
+            }
+        }
+
+        System.out.println("Account with biggest balance - Number: " + accountBiggestBalance.getAccountNumber() +
+                ", Balance: " + accountBiggestBalance.getBalance());
     }
 }
