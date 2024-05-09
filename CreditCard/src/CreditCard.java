@@ -13,7 +13,7 @@ public class CreditCard {
     }
 
     public boolean makePurchase(Purchase purchase) {
-        if (this.balance > purchase.getPrice()) {
+        if (this.balance >= purchase.getPrice()) {
             this.balance -= purchase.getPrice();
             this.purchases.add(purchase);
             return true;
@@ -26,7 +26,7 @@ public class CreditCard {
         return balance;
     }
 
-    public List<Purchase> getPurchase() {
+    public List<Purchase> getPurchases() {
         return purchases;
     }
 
