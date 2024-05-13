@@ -1,5 +1,6 @@
 package br.com.alura.screenmatch.models;
 
+import br.com.alura.screenmatch.exception.YearOfReleaseConversionException;
 import com.google.gson.annotations.SerializedName;
 
 public class Title implements Comparable<Title> {
@@ -19,9 +20,13 @@ public class Title implements Comparable<Title> {
 
     public Title(TitleOmdb myTitleOmdb) {
         this.name = myTitleOmdb.title();
+        if (myTitleOmdb.year().length() > 4) {
+            throw new YearOfReleaseConversionException("Couldn't convert the year of release because it has more than " +
+                    "04 characters.");
+        }
         //parseInt and valueOf are doing the same job
         this.yearOfRelease = Integer.parseInt(myTitleOmdb.year());
-        this.durationInMin = Integer.valueOf(myTitleOmdb.runtime().substring(0,2));
+        this.durationInMin = Integer.valueOf(myTitleOmdb.runtime().substring(0,3).replace(" ", ""));
     }
 
     public String getName() {
