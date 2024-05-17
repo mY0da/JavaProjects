@@ -1,1 +1,18 @@
-[{"Title":"Matrix","Year":1993,"IncludeInBundle":false,"RateSum":0.0,"TotalRating":0,"DurationInMin":60},{"Title":"Dogville","Year":2003,"IncludeInBundle":false,"RateSum":0.0,"TotalRating":0,"DurationInMin":178}]
+[
+  {
+    "Title": "Matrix",
+    "Year": 1993,
+    "includeInBundle": false,
+    "rateSum": 0.0,
+    "totalRating": 0,
+    "durationInMin": 60
+  },
+  {
+    "Title": "Dogville",
+    "Year": 2003,
+    "includeInBundle": false,
+    "rateSum": 0.0,
+    "totalRating": 0,
+    "durationInMin": 178
+  }
+]
